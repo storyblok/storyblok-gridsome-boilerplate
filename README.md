@@ -1,14 +1,23 @@
-# Default starter for Gridsome
+# Storyblok boilerplate for Gridsome
 
-This is the project you get when you run `gridsome create new-project`.
+This a boilerplate to use in Gridsome project
 
-### 1. Install Gridsome CLI tool if you don't have
+## Usage
 
-`npm install --global @gridsome/cli`
+1. Install dependencies
 
-### 2. Create a Gridsome project
+```sh
+yarn # npm install
+```
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+2. Replace `<YOUR_ACCESS_TOKEN>` string with your accessToken in `gridsome.config.js`
+
+3. Run the development server:
+
+```sh
+yarn develop # npm run develop
+```
+
+## Contribution
+
+Fork me on [Github](https://github.com/storyblok/storyblok-gridsome-boilerplate)
