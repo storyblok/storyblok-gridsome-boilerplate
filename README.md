@@ -1,6 +1,6 @@
 # Storyblok boilerplate for Gridsome
 
-This a boilerplate to use in Gridsome project
+This a boilerplate to use in [Gridsome](https://gridsome.org/) project integrated with [Storyblok](https://www.storyblok.com/) by using the [gridsome-souce-plugin](https://github.com/storyblok/gridsome-source-storyblok)
 
 ## Usage
 
