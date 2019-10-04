@@ -2,7 +2,7 @@
   <div class="layout">
     <header class="header">
       <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        <g-link to="/home">{{ $static.metadata.siteName }}</g-link>
       </strong>
       <nav class="nav">
         <g-link
@@ -23,14 +23,6 @@ export default {
   computed: {
     menuOptions () {
       return [
-        {
-          label: 'Index',
-          route: '/'
-        },
-        {
-          label: 'About',
-          route: '/about'
-        },
         ...this.edges.map(edge => {
           return {
             label: edge.node.name,
