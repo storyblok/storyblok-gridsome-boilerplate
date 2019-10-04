@@ -25,17 +25,7 @@ query StoryblokEntry ($id: ID) {
   storyblokEntry (id: $id) {
     id
     slug
-    content {
-      component
-      body {
-        headline
-        component
-        columns {
-          component
-          name
-        }
-      }
-    }
+    content
   }
 }
 </page-query>
