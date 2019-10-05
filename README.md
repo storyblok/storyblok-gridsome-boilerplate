@@ -1,6 +1,6 @@
 # Storyblok boilerplate for Gridsome
 
-This a boilerplate to use in [Gridsome](https://gridsome.org/) project integrated with [Storyblok](https://www.storyblok.com/) by using the [gridsome-souce-plugin](https://github.com/storyblok/gridsome-source-storyblok)
+This a boilerplate to create a [Gridsome](https://gridsome.org/) project with [Storyblok](https://www.storyblok.com/) by using the plugin [gridsome-source-storyblok](https://github.com/storyblok/gridsome-source-storyblok).
 
 ## Usage
 
@@ -10,7 +10,7 @@ This a boilerplate to use in [Gridsome](https://gridsome.org/) project integrate
 yarn # npm install
 ```
 
-2. Replace `<YOUR_ACCESS_TOKEN>` string with your accessToken in `gridsome.config.js`
+2. Replace `<YOUR_ACCESS_TOKEN>` with your accessToken in `gridsome.config.js`
 
 3. Run the development server:
 

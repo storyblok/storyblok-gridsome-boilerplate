@@ -26,7 +26,7 @@ export default {
         ...this.edges.map(edge => {
           return {
             label: edge.node.name,
-            route: edge.node.slug
+            route: edge.node.full_slug
           }
         })
       ]
@@ -48,7 +48,7 @@ query {
     edges {
       node {
         id
-        slug
+        full_slug
         name
       }
     }

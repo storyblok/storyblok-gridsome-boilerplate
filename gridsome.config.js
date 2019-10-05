@@ -15,8 +15,5 @@ module.exports = {
         }
       }
     }
-  ],
-  templates: {
-    StoryblokEntry: '/:slug'
-  }
+  ]
 }
