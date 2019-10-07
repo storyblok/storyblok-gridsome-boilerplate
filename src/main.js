@@ -7,8 +7,11 @@ import Teaser from '~/components/Teaser.vue'
 import Feature from '~/components/Feature.vue'
 import Grid from '~/components/Grid.vue'
 import Richtext from '~/components/Richtext.vue'
+import StoryblokVue from 'storyblok-vue'
 
 export default function (Vue, { router, head, isClient }) {
+  Vue.use(StoryblokVue)
+
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 
