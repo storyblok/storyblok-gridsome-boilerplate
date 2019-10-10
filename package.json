@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "gridsome": "^0.7.0",
-    "gridsome-source-storyblok": "^0.1.0"
+    "gridsome-source-storyblok": "^0.1.2"
   }
 }
