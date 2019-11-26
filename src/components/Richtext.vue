@@ -6,10 +6,18 @@
 
 <script>
 export default {
-  props: ['text'],
+  props: {
+    blok: {
+      type: Object,
+      default: () => ({})
+    }
+  },
   computed: {
+    content () {
+      return this.blok.richtext || { content: [] }
+    },
     richtext() {
-      return this.text ? this.$storyapi.richTextResolver.render(this.text) : ''
+      return this.$storyapi.richTextResolver.render(this.content)
     }
   }
 }
