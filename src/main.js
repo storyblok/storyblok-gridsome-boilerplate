@@ -7,6 +7,7 @@ import Teaser from '~/components/Teaser.vue'
 import Feature from '~/components/Feature.vue'
 import Grid from '~/components/Grid.vue'
 import Richtext from '~/components/Richtext.vue'
+import MyImage from '~/components/MyImage.vue'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
@@ -17,4 +18,5 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Feature', Feature)
   Vue.component('Grid', Grid)
   Vue.component('Richtext', Richtext)
+  Vue.component('MyImage', MyImage)
 }
