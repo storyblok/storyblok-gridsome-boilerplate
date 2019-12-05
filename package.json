@@ -7,7 +7,7 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0",
-    "gridsome-source-storyblok": "^0.1.2"
+    "gridsome": "^0.7.11",
+    "gridsome-source-storyblok": "^0.2.0"
   }
 }
