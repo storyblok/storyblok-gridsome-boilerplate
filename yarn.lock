@@ -4031,10 +4031,10 @@ graphql@^14.4.2:
   dependencies:
     iterall "^1.2.2"
 
-gridsome-source-storyblok@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gridsome-source-storyblok/-/gridsome-source-storyblok-1.0.0.tgz#efb22bb92db73b6eb7dcbee268224dd12272d665"
-  integrity sha512-bMKe00+dYVV+Tfbxy8GIy8DTcDA0odKamakCYKYini5cGRTtEXHXvYRQ7LR+xaIjdk3Ic+Yhx1IpMw9QolKXaQ==
+gridsome-source-storyblok@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gridsome-source-storyblok/-/gridsome-source-storyblok-1.0.1.tgz#894fd00bd2175a50bed2f686fdce867c909a212c"
+  integrity sha512-cj1WFXdsQLREjdG7hyQ6aFCwx/K/IHMyRqFUfrpDiwA88ZZXtpfrnaz4UGIVAQ7zklJL+f8VPBMZ0gd6ycy2wQ==
   dependencies:
     storyblok-js-client "^2.2.0"
     storyblok-vue "^1.0.5"
