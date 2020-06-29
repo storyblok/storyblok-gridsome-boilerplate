@@ -4031,12 +4031,13 @@ graphql@^14.4.2:
   dependencies:
     iterall "^1.2.2"
 
-gridsome-source-storyblok@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gridsome-source-storyblok/-/gridsome-source-storyblok-1.0.1.tgz#894fd00bd2175a50bed2f686fdce867c909a212c"
-  integrity sha512-cj1WFXdsQLREjdG7hyQ6aFCwx/K/IHMyRqFUfrpDiwA88ZZXtpfrnaz4UGIVAQ7zklJL+f8VPBMZ0gd6ycy2wQ==
+gridsome-source-storyblok@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gridsome-source-storyblok/-/gridsome-source-storyblok-1.0.2.tgz#2356f90152b3b6fbe309c4f0c7bc8a83d0a60196"
+  integrity sha512-g685oYTwzENMuwAzGBcDP82yQcmrOrjMlMgZWT4xzP0Dyj9R3XDaXSvZmkYzY8tICmhkvJqOOxAllk5zsOG98A==
   dependencies:
-    storyblok-js-client "^2.2.0"
+    lodash "^4.17.15"
+    storyblok-js-client "^2.5.0"
     storyblok-vue "^1.0.5"
 
 gridsome@^0.7.13:
@@ -7642,10 +7643,10 @@ static-extend@^0.1.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-storyblok-js-client@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-2.2.0.tgz#e4d617f7de77390439c49f4bc8029c38d93dcf60"
-  integrity sha512-1bc/WPd8t+0awVdvVuyUECxL+cfN1d8+q1poSECS0/ZrSEYG272a9t3atoIjmStiosA52fnmpC39bC8hS28m1g==
+storyblok-js-client@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-2.5.0.tgz#1b92d55a8f2cf940d76c2921b0983ee62c233f52"
+  integrity sha512-yaKPqPeJQfhZaEUutJc9FI6Q531KpKvYh4z5LK99RV98Obc8O/4AN52FcEQdrRvUpkKmRZp7BSPXiR7nEQPWrA==
   dependencies:
     "@babel/runtime-corejs3" "^7.4.5"
     axios "^0.19.0"
