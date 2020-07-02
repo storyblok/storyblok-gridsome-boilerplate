@@ -10,7 +10,7 @@ This a boilerplate to create a [Gridsome](https://gridsome.org/) project with [S
 yarn # npm install
 ```
 
-2. Replace `<YOUR_ACCESS_TOKEN>` with your accessToken in `gridsome.config.js`
+2. Replace `<YOUR_ACCESS_TOKEN>` with your preview accessToken in `gridsome.config.js`
 
 3. Run the development server:
 
