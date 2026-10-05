@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository is no longer maintained.
+
 # Storyblok boilerplate for Gridsome
 
 This a boilerplate to create a [Gridsome](https://gridsome.org/) project with [Storyblok](https://www.storyblok.com/) by using the plugin [gridsome-source-storyblok](https://github.com/storyblok/gridsome-source-storyblok).
